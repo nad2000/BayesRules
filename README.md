@@ -44,7 +44,7 @@ Alternatively, you can install Jupyter via Anaconda, which includes Jupyter and 
 
 Install the necessary **R** packages and the **IRKernel**:
 
-1. Open R or RStudio (either using the short-cut on your desktop or from *PS*, eg, `C:\Users\Radomirs\AppData\Local\Programs\R\R-4.4.1\bin\x64\Rgui.exe --cd-to-userdocs`) and run the following commands to install the required packages:
+1. Open R or RStudio (either using the shortcut on your desktop or from *PS*, eg, `C:\Users\Radomirs\AppData\Local\Programs\R\R-4.4.1\bin\x64\Rgui.exe --cd-to-userdocs` or with Linux: `R --no-readline --interactive`) and run the following commands to install the required packages:
     ```r
     install.packages('devtools')                  # devtools so you can install packages fom GitHub
     devtools::install_github("IRkernel/IRkernel") # Jupyter R-kernel
